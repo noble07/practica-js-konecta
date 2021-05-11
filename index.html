@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/main.css">
+</head>
+<body>
+
+    <!-- Cabezote -->
+    <header class="navbar fixed-top">
+        <div class="wrapper-main nav-container">
+            <a href="index.html" class="logo">
+                <img src="./assets/images/logo-demo.svg" alt="Logo Sitio">
+            </a>
+
+            <nav id="main-menu" role="navigation" class="collapse">
+                <ul>
+                    <li class="active"><a href="index.html">Inicio</a></li>
+                    <li><a href="calculadora.html">Calculadora</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner-home">
+        <img src="./assets/images/banner-demo.png" alt="lorem ipsum" />
+    </section>
+
+    <section class="wrapper-main-lg center contact-content">
+        <div class="contact-form-group">
+            <form id="contact-form" name="contactForm" action="#" method="POST">
+                <div class="form-control">
+                    <label for="id">Número de Identificación</label>
+                    <input type="number" name="id" id="id" placeholder="Número de Identificación" required>
+                </div>
+                <div class="form-control">
+                    <label for="fullName">Nombres y Apellidos</label>
+                    <input type="text" name="fullName" id="fullName" placeholder="Nombres y Apellidos" required>
+                </div>
+                <div class="form-control">
+                    <label for="phone">Celular</label>
+                    <input type="number" name="phone" id="phone" placeholder="Celular" required>
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="form-control">
+                    <label for="area">Área/operación</label>
+                    <input type="text" name="area" id="area" placeholder="Área/operación" required>
+                </div>
+                <div class="form-control">
+                    <label for="jobTitle">Cargo</label>
+                    <input type="text" name="jobTitle" id="jobTitle" placeholder="Cargo" required>
+                </div>
+                <div class="form-control">
+                    <label for="contactCity">Si necesitamos contactarte telefonicamente, indicanos donde te encuentras?</label>
+                    <select name="contactCity" id="contactCity">
+                        <option selected>Si necesitamos contactarte telefonicamente, indicanos donde te encuentras?</option>
+                        <option value="medellin">Medellín</option>
+                        <option value="bogota">Bogotá</option>
+                        <option value="cali">Cali</option>
+                        <option value="barranquila">Barranquilla</option>
+                    </select>
+                </div>
+                <div class="form-control">
+                    <label for="contactHour">Horario en el que te podemos contactar</label>
+                    <input type="text" name="contactHour" id="contactHour" placeholder="Horario en el que te podemos contactar" required>
+                </div>
+                <div class="form-control">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="wrapper-main-sm center">
+            <p>Lorem Ipsum&copy; | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, ea?</p>
+        </div>
+    </footer>
+
+    <script src="./public/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/main.css">
+</head>
+<body>
+
+    <!-- Cabezote -->
+    <header class="navbar fixed-top">
+        <div class="wrapper-main nav-container">
+            <a href="index.html" class="logo">
+                <img src="./assets/images/logo-demo.svg" alt="Logo Sitio">
+            </a>
+
+            <nav id="main-menu" role="navigation" class="collapse">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li class="active"><a class="active" href="calculadora.html">Calculadora</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner-home">
+        <img src="./assets/images/banner-demo.png" alt="lorem ipsum" />
+    </section>
+
+    <section class="wrapper-main center calculator-content">
+        <div class="contact-form-group">
+                <div class="contact-form-inputs">
+                    <div class="form-control">
+                        <label for="id">Numero 1:</label>
+                        <input type="number" name="number1" id="number1" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="fullName">Numero 2:</label>
+                        <input type="number" name="number2" id="number2" required>
+                    </div>
+                </div>
+                <div class="contact-form-operation">
+                    <div class="form-control operantion">
+                        <button value="+" data-opetation>Sumar</button>
+                    </div>
+                    <div class="form-control operantion">
+                        <button value="-" data-opetation>Restar</button>
+                    </div>
+                    <div class="form-control operantion">
+                        <button value="*" data-opetation>Multiplicar</button>
+                    </div>
+                    <div class="form-control operantion">
+                        <button value="/" data-opetation>Dividir</button>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="wrapper-main-sm center">
+            <p>Lorem Ipsum&copy; | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, ea?</p>
+        </div>
+    </footer>
+
+    <script src="./public/js/main.js"></script>
+</body>
+</html>
